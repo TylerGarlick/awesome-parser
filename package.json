@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"parse-md": "^3.0.3"
+	}
+}

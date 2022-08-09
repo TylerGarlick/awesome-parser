@@ -1,0 +1,26 @@
+lockfileVersion: 5.4
+
+specifiers:
+  parse-md: ^3.0.3
+
+dependencies:
+  parse-md: 3.0.3
+
+packages:
+
+  /argparse/2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+    dev: false
+
+  /js-yaml/4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+    hasBin: true
+    dependencies:
+      argparse: 2.0.1
+    dev: false
+
+  /parse-md/3.0.3:
+    resolution: {integrity: sha512-2kpNrrW1GBgli5VT9X9/Y6n4PVsIFVdG49tguq1PHwzsRSK0Cu0yJPTUFOwWouFT85atYNWQ1T/rmqfj7kLd8g==}
+    dependencies:
+      js-yaml: 4.1.0
+    dev: false
